@@ -7,7 +7,11 @@
     "test": "tape test.js | tap-spec"
   },
   "keywords": [
+    "cssnano",
     "minify",
+    "minification",
+    "optimise",
+    "optimisation",
     "css",
     "gulpplugin",
     "postcss"
