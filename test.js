@@ -9,7 +9,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var css = 'h1\n{\n    color: white\n}\n';
 var expected = 'h1{color:#fff}';
 
-var sourceMapRegex = /sourceMappingURL=data:application\/json;base64/;
+var sourceMapRegex = /sourceMappingURL=data:application\/json;/;
 
 function fixture (contents) {
     return new gutil.File({
