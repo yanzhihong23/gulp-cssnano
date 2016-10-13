@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
-    "gulp-sourcemaps": "^1.5.2",
+    "gulp-sourcemaps": "^2.1.0",
     "tap-spec": "^4.0.2",
     "tape": "^4.0.0"
   },
