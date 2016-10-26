@@ -20,7 +20,7 @@ module.exports = function (opts) {
             var error = 'Streaming not supported';
             return cb(new PluginError(PLUGIN_NAME, error));
         } else if (file.isBuffer()) {
-            nano.process(String(file.contents), assign(opts, {
+            nano.process(String(file.contents), assign({}, opts, {
                 map: (file.sourceMap) ? {annotation: false} : false,
                 from: file.relative,
                 to: file.relative
